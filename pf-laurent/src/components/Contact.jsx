@@ -1,2 +1,37 @@
-const whatsapp = 'https://wa.me/243890928437?text=Bonjour%20Laurent%2C%20j%E2%80%99aimerais%20vous%20parler%20d%E2%80%99un%20projet.'
-export default function Contact() { return <div className="contact-card"><div><p className="eyebrow">Une idée, un projet ?</p><h2>Faisons quelque chose de <em>fort.</em></h2><p className="contact-copy">Dites-moi ce que vous avez en tête. Photo, vidéo, montage ou une collaboration — je vous réponds directement sur WhatsApp.</p><a className="whatsapp-link" href={whatsapp} target="_blank" rel="noreferrer"><span>◔</span> Écrire sur WhatsApp <i>↗</i></a></div><div className="contact-side"><p>CONTACT DIRECT</p><a href={whatsapp} target="_blank" rel="noreferrer">+243 89 09 28 437</a><small>Disponible à Kinshasa<br />et pour vos collaborations.</small></div></div> }
+const whatsapp =
+  "https://wa.me/243890928437?text=Bonjour%20Laurent%2C%20j%E2%80%99aimerais%20vous%20parler%20d%E2%80%99un%20projet.";
+export default function Contact() {
+  return (
+    <div className="contact-card">
+      <div>
+        <p className="eyebrow">Une idée, un projet ?</p>
+        <h2>
+          Faisons quelque chose de <em>fort.</em>
+        </h2>
+        <p className="contact-copy">
+          Dites-moi ce que vous avez en tête. Photo, vidéo, montage ou une
+          collaboration — je vous réponds directement sur WhatsApp.
+        </p>
+        <a
+          className="whatsapp-link"
+          href={whatsapp}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span>◔</span> Écrire sur WhatsApp <i>↗</i>
+        </a>
+      </div>
+      <div className="contact-side">
+        <p>CONTACT DIRECT</p>
+        <a href={whatsapp} target="_blank" rel="noreferrer">
+          +243 89 09 28 437
+        </a>
+        <small>
+          Disponible à Kinshasa
+          <br />
+          et pour vos collaborations.
+        </small>
+      </div>
+    </div>
+  );
+}
