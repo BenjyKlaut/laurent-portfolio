@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react(),
   ],
-  base: '/laurent-portfolio/'
+  base: '/laurent-portfolio/',
 })
